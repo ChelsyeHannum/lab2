@@ -1,0 +1,77 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+}
+
+.water {
+    width: 100%;
+    margin: 0;
+}
+
+.img {
+    display: flex;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 3px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.box1 {
+    position: absolute;
+    color: orange;
+    font-size: 24px;
+    right: 35px;
+    bottom: 175px;
+    letter-spacing: 3px;
+}
+
+.box2 {
+    position: absolute;
+    color: orange;
+    font-size: 24px;
+    right: 60px;
+    bottom: 35px;
+    letter-spacing: 3px;
+}
+
+.box3 {
+    position: absolute;
+    color: blue;
+    font-size: 24px;
+    right: 60px;
+    bottom: -130px;
+    letter-spacing: 3px;
+}
