@@ -1,5 +1,10 @@
 body {
     font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #ecebe9;
+}
+
+h1 {
+    color: #66d3fa;
 }
 
 .top {
@@ -12,7 +17,6 @@ body {
     width: 100%;
     margin: 0;
     height: 20%;
-    letter-spacing: 15px;
 }
 
 .header {
@@ -32,6 +36,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
 
 .paragraph {
@@ -68,6 +73,7 @@ img {
     font-size: 10px;
     right: 83px;
     bottom: 305px;
+    color: #66d3fa;
     /*letter-spacing: 5px;*/
 }
 
@@ -77,6 +83,7 @@ img {
     font-size: 10px;
     right: 95px;
     bottom: 225px;
+    color: #66d3fa;
     /* letter-spacing: 7px;*/
 }
 
@@ -86,10 +93,15 @@ img {
     font-size: 10px;
     right: 94px;
     bottom: 135px;
+    color: #66d3fa;
     /*letter-spacing: 7px;*/
 }
 
 @media only screen and (min-width: 768px) {
+    .header {
+        font-size: 65px;
+        letter-spacing: 10px;
+    }
     .water {
         height: 400px;
     }
@@ -97,8 +109,13 @@ img {
         display: flex;
         flex-direction: column;
     }
+    h2 {
+        font-size: 50px;
+    }
     .paragraph {
+        margin: 20px;
         font-size: 25px;
+        padding-bottom: 35px;
     }
     .more {
         display: flex;
@@ -117,13 +134,17 @@ img {
     .box1 {
         position: absolute;
         left: 75px;
-        font-size: 25px;
+        font-size: 35px;
         bottom: 40px;
     }
     .box2 {
         position: absolute;
         left: 370px;
-        font-size: 25px;
+        font-size: 35px;
         bottom: 66px;
+    }
+    .box3 {
+        position: absolute;
+        font-size: 35px;
     }
 }
